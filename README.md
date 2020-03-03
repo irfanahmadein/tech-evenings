@@ -1,5 +1,5 @@
-# tech-evenings
-Tech Evenings at upGrad [https://upgrad.github.io/tech-evenings/](https://upgrad.github.io/tech-evenings/)
+# Tech Evenings ☕️
+Fortnightly tech meetups at upGrad [https://upgrad.github.io/tech-evenings/](https://upgrad.github.io/tech-evenings/)
 
 To run this site locally, clone the repo and run
 ```
