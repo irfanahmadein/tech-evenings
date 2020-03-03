@@ -1,0 +1,72 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+body {
+    width: 888px;
+    margin: auto;
+    color: #16161d;
+}
+p, h2, h3 {
+    margin: 0;
+}
+.main {
+    margin-top: 50px;
+}
+.title {
+    margin: 0;
+    font-size: 3em;
+}
+.cover {
+    width: 888px;
+    display: block;
+    margin-top: 20px;
+}
+.nextEvent {
+    padding: 10px 15px;
+    background: #efe;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nextEvent-label {
+    opacity: 0.5;
+    font-size: 14px;
+}
+.nextEvent-title {
+    margin: 5px 0;
+    font-weight: bold;
+}
+.cfpButton {
+    padding: 10px 20px;
+    border: 1px solid #16161d;
+    background: #efe;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+.cfpButton:hover {
+    background: white;
+}
+
+@media only screen and (max-width: 898px) {
+    body {
+        width: auto;
+        padding: 15px;
+    }
+    .main {
+        margin-top: 0px;
+    }
+    .title {
+        font-size: 2.7em;
+    }
+    .cover {
+        width: 100%;
+    }
+    .nextEvent {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .cfpButton {
+        margin-top: 10px;
+    }
+}

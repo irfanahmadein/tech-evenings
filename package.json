@@ -1,0 +1,25 @@
+{
+  "name": "tech-evenings",
+  "version": "1.0.0",
+  "description": "Tech Evenings at upGrad",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npx @11ty/eleventy",
+    "deploy": "gh-pages -d _site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upgrad/tech-evenings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/upgrad/tech-evenings/issues"
+  },
+  "homepage": "http://upgrad.github.io/tech-evenings",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
